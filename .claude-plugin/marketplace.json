@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "kuzkok",
+  "description": "Набор плагинов для ведения задач в Claude Code",
+  "owner": {
+    "name": "Pavel Radostev"
+  },
+  "plugins": [
+    {
+      "name": "task-workflow",
+      "description": "Скиллы для ведения задач в tasks/ и написания RFC: framing-a-task, investigating-crash-logs, working-on-tasks, rfc-author",
+      "source": "./",
+      "category": "workflow"
+    }
+  ]
+}
